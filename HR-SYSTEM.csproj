@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DA39056D-857B-4FAE-8770-266AB8B9944F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HR_SYSTEM</RootNamespace>
+    <AssemblyName>HR-SYSTEM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\css\ui-lightness\images\animated-overlay.gif" />
+    <Content Include="assets\css\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="assets\css\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="assets\css\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="assets\css\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="assets\css\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="assets\css\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="assets\css\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="assets\css\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="assets\css\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="assets\css\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="assets\css\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="assets\css\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="assets\css\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="assets\css\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="assets\css\ui-lightness\jquery-ui-1.10.3.custom.css" />
+    <Content Include="assets\css\ui-lightness\jquery-ui-1.10.3.custom.min.css" />
+    <Content Include="assets\js\bootstrap.js" />
+    <Content Include="assets\js\jquery-ui-1.10.3.custom.min.js" />
+    <Content Include="assets\js\jquery.js" />
+    <Content Include="Default.aspx" />
+    <Content Include="views\approveEmployee.aspx" />
+    <Content Include="views\Default.aspx" />
+    <Content Include="views\deleteDepartment.aspx" />
+    <Content Include="views\deleteEmployee.aspx" />
+    <Content Include="views\deletePosition.aspx" />
+    <Content Include="views\departments.aspx" />
+    <Content Include="views\editDepartment.aspx" />
+    <Content Include="views\editPosition.aspx" />
+    <Content Include="views\EmployeeAddDocument.aspx" />
+    <Content Include="views\EmployeeAddIncome.aspx" />
+    <Content Include="views\EmployeeAddRecord.aspx" />
+    <Content Include="views\EmployeeAddTimeOff.aspx" />
+    <Content Include="views\EmployeeCreate.aspx" />
+    <Content Include="views\Employees.aspx" />
+    <Content Include="views\EmployeeView.aspx" />
+    <Content Include="views\header.ascx" />
+    <Content Include="views\login.aspx" />
+    <Content Include="views\logout.aspx" />
+    <Content Include="views\positions.aspx" />
+    <Content Include="views\Tester.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="models\Address.cs" />
+    <Compile Include="models\DatabaseHandler.cs" />
+    <Compile Include="models\Department.cs" />
+    <Compile Include="models\Document.cs" />
+    <Compile Include="models\Employee.cs" />
+    <Compile Include="models\EmployeesCollection.cs" />
+    <Compile Include="models\EmployeesDocuments.cs" />
+    <Compile Include="models\EmployeesIncome.cs" />
+    <Compile Include="models\EmployeesRecords.cs" />
+    <Compile Include="models\EmployeesTimeOff.cs" />
+    <Compile Include="models\Income.cs" />
+    <Compile Include="models\itemsCollection.cs" />
+    <Compile Include="models\Job.cs" />
+    <Compile Include="models\Position.cs" />
+    <Compile Include="models\Record.cs" />
+    <Compile Include="models\TimeOff.cs" />
+    <Compile Include="models\HRUser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="views\approveEmployee.aspx.cs">
+      <DependentUpon>approveEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\approveEmployee.aspx.designer.cs">
+      <DependentUpon>approveEmployee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\deleteDepartment.aspx.cs">
+      <DependentUpon>deleteDepartment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\deleteDepartment.aspx.designer.cs">
+      <DependentUpon>deleteDepartment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\deleteEmployee.aspx.cs">
+      <DependentUpon>deleteEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\deleteEmployee.aspx.designer.cs">
+      <DependentUpon>deleteEmployee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\deletePosition.aspx.cs">
+      <DependentUpon>deletePosition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\deletePosition.aspx.designer.cs">
+      <DependentUpon>deletePosition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\departments.aspx.cs">
+      <DependentUpon>departments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\departments.aspx.designer.cs">
+      <DependentUpon>departments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\editDepartment.aspx.cs">
+      <DependentUpon>editDepartment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\editDepartment.aspx.designer.cs">
+      <DependentUpon>editDepartment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\editPosition.aspx.cs">
+      <DependentUpon>editPosition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\editPosition.aspx.designer.cs">
+      <DependentUpon>editPosition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\EmployeeAddDocument.aspx.cs">
+      <DependentUpon>EmployeeAddDocument.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\EmployeeAddDocument.aspx.designer.cs">
+      <DependentUpon>EmployeeAddDocument.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\EmployeeAddIncome.aspx.cs">
+      <DependentUpon>EmployeeAddIncome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\EmployeeAddIncome.aspx.designer.cs">
+      <DependentUpon>EmployeeAddIncome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\EmployeeAddRecord.aspx.cs">
+      <DependentUpon>EmployeeAddRecord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\EmployeeAddRecord.aspx.designer.cs">
+      <DependentUpon>EmployeeAddRecord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\EmployeeAddTimeOff.aspx.cs">
+      <DependentUpon>EmployeeAddTimeOff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\EmployeeAddTimeOff.aspx.designer.cs">
+      <DependentUpon>EmployeeAddTimeOff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\EmployeeCreate.aspx.cs">
+      <DependentUpon>EmployeeCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\EmployeeCreate.aspx.designer.cs">
+      <DependentUpon>EmployeeCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\Employees.aspx.cs">
+      <DependentUpon>Employees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\Employees.aspx.designer.cs">
+      <DependentUpon>Employees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\EmployeeView.aspx.cs">
+      <DependentUpon>EmployeeView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\EmployeeView.aspx.designer.cs">
+      <DependentUpon>EmployeeView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\header.ascx.cs">
+      <DependentUpon>header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\header.ascx.designer.cs">
+      <DependentUpon>header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="views\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\positions.aspx.cs">
+      <DependentUpon>positions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\positions.aspx.designer.cs">
+      <DependentUpon>positions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="views\Tester.aspx.cs">
+      <DependentUpon>Tester.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="views\Tester.aspx.designer.cs">
+      <DependentUpon>Tester.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\img\" />
+    <Folder Include="upload\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>61628</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

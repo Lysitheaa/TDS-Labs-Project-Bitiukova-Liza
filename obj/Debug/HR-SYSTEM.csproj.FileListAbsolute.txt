@@ -1,0 +1,15 @@
+C:\Users\OthmanAba\Documents\GitHub\HR-System\bin\HR-SYSTEM.dll
+C:\Users\OthmanAba\Documents\GitHub\HR-System\bin\HR-SYSTEM.pdb
+C:\Users\OthmanAba\Documents\GitHub\HR-System\obj\Debug\HR-SYSTEM.dll
+C:\Users\OthmanAba\Documents\GitHub\HR-System\obj\Debug\HR-SYSTEM.pdb
+C:\Users\bmachart\Documents\GitHub\HR-System\obj\Debug\HR-SYSTEM.dll
+C:\Users\bmachart\Documents\GitHub\HR-System\obj\Debug\HR-SYSTEM.pdb
+C:\Users\bmachart\Documents\GitHub\HR-System\bin\HR-SYSTEM.dll
+C:\Users\bmachart\Documents\GitHub\HR-System\bin\HR-SYSTEM.pdb
+E:\_Универ\4 курс\Диплом\Программа\HR-System-master\bin\HR-SYSTEM.dll.config
+E:\_Универ\4 курс\Диплом\Программа\HR-System-master\bin\HR-SYSTEM.dll
+E:\_Универ\4 курс\Диплом\Программа\HR-System-master\bin\HR-SYSTEM.pdb
+E:\_Универ\4 курс\Диплом\Программа\HR-System-master\obj\Debug\HR-SYSTEM.csprojResolveAssemblyReference.cache
+E:\_Универ\4 курс\Диплом\Программа\HR-System-master\obj\Debug\HR-SYSTEM.csproj.CoreCompileInputs.cache
+E:\_Универ\4 курс\Диплом\Программа\HR-System-master\obj\Debug\HR-SYSTEM.dll
+E:\_Универ\4 курс\Диплом\Программа\HR-System-master\obj\Debug\HR-SYSTEM.pdb
